@@ -1,0 +1,161 @@
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300,400,500,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,);
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.hero {
+  width: 100%;
+  min-height: 450px;
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #d9edfd;
+  background: url('http://imgur.com/qCeHJQ9.jpg') center;
+  background-size: cover;
+}
+
+.logo {
+  margin: 70px auto;
+  position: absolute;
+  z-index: 2;
+  text-align: center;
+  width: 100%;
+}
+
+.logo h1 {
+  color: #fff;
+  font-size: 50px;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.logo h3 {
+  color: #fff;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+nav {
+  background-color: #004953;
+  overflow: hidden;
+}
+nav ul {
+  list-style: none;
+  max-width: 900px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+nav li {
+  padding: 10px 20px;
+}
+@media (max-width: 700px) {
+  nav li {
+    width: 50%;
+    text-align: center;
+  }
+}
+nav a {
+  /* Tilmelding: */
+  font-weight: 700;
+  font-size: 1.25em;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+}
+
+nav li:hover {
+  /* Tilmelding: */
+  background-color: #007686;
+  text-decoration: none;
+  transition: ease-out 0.2s;
+  transition: ease-in 0.2s;
+}
+
+.get li:hover {
+  background-color: #007d8e;
+  transition: ease-out 0.2s;
+  transition: ease-in 0.2s;
+}
+
+.dark-bg {
+  background-color: #003b53;
+  padding: 50px 50px;
+  margin: 0 auto;
+  font-size: 19px;
+  color: white;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.dark-bg img {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  max-width: 100%;
+}
+
+.plusdata img {
+  display: block;
+  margin: 0 auto;
+  width: auto;
+  max-width: 100%;
+}
+
+.plusdata {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 19px;
+  color: #12202F;
+  letter-spacing: 0px;
+  line-height: 27px;
+}
+
+.get {
+  background-color: #12212f;
+}
+
+footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  color: grey;
+}
+
+@media screen and (max-width: 960px) {
+	header .bars {
+		position: inherit;
+	}
+}
+
+.minifooter {
+  font-size: 10px;
+}
+
+body {
+ margin: 0;
+}
